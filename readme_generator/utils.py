@@ -12,6 +12,7 @@ IGNORED_DIRS = {
     "build",
     "dist",
     "*.egg-info",
+    "*.env",
 }
 
 ALLOWED_EXTENSIONS = (

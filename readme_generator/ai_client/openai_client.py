@@ -8,7 +8,7 @@ class OpenAIClient:
 
     def chat(self, prompt: str):
         response = openai.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini-2024-07-18",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
         )
