@@ -11,8 +11,8 @@ class ReadmeGenerator:
         self.client = get_client(provider)
 
     def run(self):
-        content_summary = read_project_files(max_chars=self.max_chars)
-        prompt = get_prompt(self.lang, content_summary)
+        project_summary = read_project_files(max_chars=self.max_chars)
+        prompt = get_prompt(self.lang, project_summary)
         readme_content = self.client.chat(prompt)
         output_path = f"README_{self.lang}.md"
         with open(output_path, "w", encoding="utf-8") as f:

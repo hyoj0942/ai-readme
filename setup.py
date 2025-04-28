@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="ai-readme",
-    version="0.1.0",
-    author="Joey Kim",
+    version="0.1.1",
+    author="JoeyKim",
     author_email="hyoj0492@gmail.com",
     description="Automatically generate README.md using AI.",
     long_description=open("README.md", encoding="utf-8").read(),

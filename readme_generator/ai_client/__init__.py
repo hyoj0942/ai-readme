@@ -10,4 +10,4 @@ def get_client(provider: str):
     elif provider == "gemini":
         return GeminiClient()
     else:
-        raise ValueError(f"Unknown provider: {provider}")
+        raise ValueError(f"Unsupported provider: {provider}")
