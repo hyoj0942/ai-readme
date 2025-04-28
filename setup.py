@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="readme-generator",
+    name="readmegen",
     version="0.1.0",
     author="Joey Kim",
     author_email="hyoj0492@gmail.com",
     description="Automatically generate README.md using AI.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/hyoj0942/readme-generator",
+    url="https://github.com/hyoj0942/readmegen",
     packages=find_packages(),
     install_requires=[
         "openai",
