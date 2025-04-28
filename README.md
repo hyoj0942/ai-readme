@@ -13,7 +13,7 @@ Generate a professional `README.md` automatically by analyzing project files usi
 ## Installation
 
 ```bash
-pip install readmegen
+pip install ai-readme
 ```
 
 
