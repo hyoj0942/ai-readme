@@ -3,8 +3,9 @@ from readme_generator.ai_client import get_client
 from readme_generator.utils import read_project_files
 from readme_generator.prompt_templates import get_prompt
 
+
 class ReadmeGenerator:
-    def __init__(self, lang: str, provider: str, max_chars: int = 3000):
+    def __init__(self, lang: str, provider: str, max_chars: int = 10000):
         self.lang = lang
         self.provider = provider
         self.max_chars = max_chars
