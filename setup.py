@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ai-readme",
-    version="0.1.1",
+    version="0.1.2",
     author="JoeyKim",
     author_email="hyoj0492@gmail.com",
     description="Automatically generate README.md using AI.",
@@ -26,5 +26,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
+    python_requires=">=3.7",
 )
